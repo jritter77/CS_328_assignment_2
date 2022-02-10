@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CS 328 Assignment 2</title>
+        <meta name="description" content="Jake Ritter's submission for CS 328 Assignment 2.">
+
+        <link rel="stylesheet" href="./common.css">
+        <link rel="stylesheet" href="./buyer.css">
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./buyer.html">Buyers</a>
+                <a href="./seller.html">Sellers</a>
+            </nav>
+        </header>
+        
+
+        <div id="page_container" >
+
+            <section id="form_container">
+                <h2>Buyer Information</h2>
+
+                <div>
+                    <form>
+
+                        <section id="contact_info">
+                            <h3>Contact Information</h3>
+
+                            <div>
+                                <p id="name_group">
+                                    <label for="buyer_name">Name</label>
+                                    <input id="buyer_name" name="buyer_name" required>
+                                </p>
+    
+                                <p id="phone_group">
+                                    <label for="buyer_phone">Phone</label>
+                                    <input type="phone" id="buyer_phone" name="buyer_phone" required>
+                                </p>
+    
+                                <p id="address_group">
+                                    <label for="buyer_address">Address</label>
+                                    <input id="buyer_address" name="buyer_address" required>
+                                </p>
+                            </div>
+                            
+                            
+                        </section>
+
+                        <section id="budget_selector">
+                            <h3>Budget</h3>
+
+                            <div>
+                                <input id="budget" name="budget" type="range" min="100000" max="2000000" step="50000">
+                                <p id="budget_display">100000</p>
+                            </div>
+                            
+                        </section>
+
+                        <section id="area_selector">
+                            <h3>Areas of Interest</h3>
+
+                            <div>
+
+                                <p>
+                                    <label for="eureka">Eureka</label>
+                                    <input type="checkbox" id="eureka" name="eureka" value="Eureka">
+                                </p>
+
+                                <p>
+                                    <label for="arcata">Arcata</label>
+                                    <input type="checkbox" id="arcata" name="arcata" value="Arcata">
+                                </p>
+
+                                <p>
+                                    <label for="ferndale">Ferndale</label>
+                                    <input type="checkbox" id="ferndale" name="ferndale" value="Ferndale">
+                                </p>
+
+                                <p>
+                                    <label for="fortuna">Fortuna</label>
+                                    <input type="checkbox" id="fortuna" name="fortuna" value="Fortuna">
+                                </p>
+
+                                <p>
+                                    <label for="blue_lake">Blue Lake</label>
+                                    <input type="checkbox" id="blue_lake" name="blue_lake" value="Blue Lake">
+                                </p>
+
+                                <p>
+                                    <label for="trinidad">Trinidad</label>
+                                    <input type="checkbox" id="trinidad" name="trinidad" value="Trinidad">
+                                </p>
+
+                                <p>
+                                    <label for="mckinleyville">McKinleyville</label>
+                                    <input type="checkbox" id="mckinleyville" name="mckinleyville" value="McKinleyville">
+                                </p>
+
+                                <p>
+                                    <label for="other_area">Other</label>
+                                    <input type="checkbox" id="other_area" name="other_area" value="Other">
+                                </p>
+
+                            </div>
+                        </section>
+                        
+
+                        <section id="type_selector">
+                            <h3>Building Type</h3>
+
+                            <div>
+
+                                <p>
+                                    <label for="commercial">Commercial</label>
+                                    <input type="radio" id="commercial" name="type" value="commercial" checked>
+                                </p>
+
+                                <p>
+                                    <label for="entertainment">Entertainment</label>
+                                    <input type="radio" id="entertainment" name="type" value="entertainment">
+                                </p>
+
+                                <p>
+                                    <label for="residential">Residential</label>
+                                    <input type="radio" id="residential" name="type" value="residential">
+                                </p>
+
+                                <p>
+                                    <label for="apartment">Apartment Complex</label>
+                                    <input type="radio" id="apartment" name="type" value="apartment">
+                                </p>
+
+                                <p>
+                                    <label for="hotel">Hotel</label>
+                                    <input type="radio" id="hotel" name="type" value="hotel">
+                                </p>
+
+                                <p>
+                                    <label for="other">Other</label>
+                                    <input type="radio" id="other" name="type" value="other">
+                                </p>
+
+                                
+
+                            </div>
+                        </section>
+
+                        <input type="submit" value="Submit">
+                        
+                    </form>
+                </div>
+
+            </section>
+
+            <img src="https://images.unsplash.com/photo-1592313794735-b9558968c0c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGFsbGVzdCUyMGJ1aWxkaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="building image...">
+            
+
+        </div>
+
+        <footer>
+            <p>
+                &copy; Jake Ritter - 2022
+            </p>
+        </footer>
+        
+
+        <script type="module" src="./updateBudget.js"></script>
+
+    </body>
+
+    
+
+</html>

@@ -1,0 +1,166 @@
+
+#name_group {
+    grid-area: name;
+}
+
+#phone_group {
+    grid-area: phone;
+}
+
+#address_group {
+    grid-area: address;
+}
+
+
+
+#building_name_group {
+    grid-area: building_name;
+}
+
+#building_phone_group {
+    grid-area: building_price;
+}
+
+#building_address_group {
+    grid-area: building_address;
+}
+
+
+
+
+form {
+    border: 2px solid green;
+    background: white;
+    margin: 0% 20%;
+    padding: 5% 10%;
+    border-radius: 5%;
+}
+
+h3 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+section p {
+    text-align: left;
+}
+
+#contact_info {
+    text-align: left;
+}
+
+#contact_info div {
+    display: grid;
+    gap: 16px 32px;
+    grid-template-areas: 
+    "name phone"
+    "address address";
+}
+
+
+#contact_info label {
+    display: block;
+    text-align: left;
+}
+
+#contact_info input {
+    display: block;
+    width: 100%;
+}
+
+#building_info {
+    text-align: left;
+}
+
+#building_info div {
+    display: grid;
+    gap: 16px 32px;
+    grid-template-areas: 
+    "building_name building_price"
+    "building_address building_address";
+}
+
+
+#building_info label {
+    display: block;
+    text-align: left;
+}
+
+#building_info input {
+    display: block;
+    width: 100%;
+}
+
+
+#budget_selector {
+    text-align: left;
+}
+
+#budget_selector div {
+    text-align: center;
+}
+
+#budget_selector input {
+    width: 100%;
+}
+
+#budget_display {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+
+#budget_selector p::before {
+    content: "$";
+}
+
+#area_selector div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+#type_selector div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+#building_specs {
+    text-align: left;
+}
+
+#building_specs div {
+    display: grid;
+    gap: 16px 32px;
+    grid-template-columns: auto auto;
+}
+
+
+#building_specs label {
+    display: block;
+    text-align: left;
+}
+
+#building_specs input {
+    display: block;
+    width: 100%;
+}
+
+
+
+input[type="submit"] {
+    width: 50%;
+    margin-top: 32px;
+    background: rgb(74, 167, 255);
+    border: none;
+    border-radius: 5%;
+    color: white;
+    font-size: large;
+    padding: 16px;
+}
+
+input[type="submit"]:focus {
+    background:rgb(21, 89, 153);
+}
+
