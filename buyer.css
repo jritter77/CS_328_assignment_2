@@ -16,9 +16,12 @@ section p {
 }
 
 img {
-  width: 360px;
-  height: 480px;
-  margin: 32px;
+  width: 480px;
+  height: 600px;
+  margin: 128px 32px;
+  border: 2px solid green;
+  padding: 8px;
+  border-radius: 10%;
 }
 
 #form_container {
@@ -96,7 +99,6 @@ img {
 #page_container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
 }
 

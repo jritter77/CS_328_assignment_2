@@ -1,4 +1,15 @@
 
+
+img {
+    width: 480px;
+    height: 600px;
+    margin: 128px 32px;
+    border: 2px solid green;
+    padding: 8px;
+    border-radius: 10%;
+  }
+
+
 #name_group {
     grid-area: name;
 }
@@ -31,8 +42,8 @@
 form {
     border: 2px solid green;
     background: white;
-    margin: 0% 20%;
-    padding: 5% 10%;
+    margin: 0px 32px;
+    padding: 32px 32px;
     border-radius: 5%;
 }
 
@@ -43,6 +54,13 @@ h3 {
 
 section p {
     text-align: left;
+}
+
+
+#form_container {
+    flex: 1;
+    min-width: 600px;
+    max-width: 50%;
 }
 
 #contact_info {
@@ -147,6 +165,12 @@ section p {
     width: 100%;
 }
 
+
+#page_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 
 input[type="submit"] {

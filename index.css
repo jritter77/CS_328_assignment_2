@@ -2,7 +2,9 @@
 img {
     width: 480px;
     height: 480px;
+    border: 2px solid green;
     border-radius: 30%;
+    padding: 8px;
 }
 
 
@@ -16,9 +18,6 @@ section div {
 article {
     width: 480px;
     height: 480px;
-    border: 2px solid green;
-    border-radius: 30%;
-    background: white;
     margin: 64px 32px;
 }
 
